@@ -1,0 +1,180 @@
+{
+  "timestamp": "2026-04-20T21:34:58.097251",
+  "total": 16,
+  "success": 5,
+  "failed": 11,
+  "results": [
+    {
+      "status": "failed",
+      "error": {
+        "error": {
+          "message": "当前分组 default 下对于模型 gemini-3-pro-image 计费模式 [按量计费,按次计费] 无可用渠道 (request id: 202604202131558458513063231718)",
+          "type": "shell_api_error"
+        }
+      },
+      "code": 503,
+      "model_id": "gemini-3-pro-image",
+      "model_name": "Nano Banana Pro",
+      "group": "Nano Banana"
+    },
+    {
+      "status": "timeout",
+      "model_id": "gemini-3.1-flash-image-preview",
+      "model_name": "Nano Banana 2",
+      "group": "Nano Banana"
+    },
+    {
+      "status": "success",
+      "url": "iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAAXgG...",
+      "time": 9.909796476364136,
+      "model_id": "gemini-2.5-flash-image-preview",
+      "model_name": "Nano Banana",
+      "group": "Nano Banana"
+    },
+    {
+      "status": "failed",
+      "error": {
+        "error": {
+          "message": "当前分组 default 下对于模型 chatgpt-image-1 计费模式 [按量计费,按次计费] 无可用渠道 (request id: 2026042021331413673081988855020)",
+          "type": "shell_api_error"
+        }
+      },
+      "code": 503,
+      "model_id": "chatgpt-image-1",
+      "model_name": "GPT Image 1",
+      "group": "GPT-Image"
+    },
+    {
+      "status": "failed",
+      "error": {
+        "error": {
+          "message": "当前分组 default 下对于模型 chatgpt-image-1-mini 计费模式 [按量计费,按次计费] 无可用渠道 (request id: 2026042021331724460165484523034)",
+          "type": "shell_api_error"
+        }
+      },
+      "code": 503,
+      "model_id": "chatgpt-image-1-mini",
+      "model_name": "GPT Image 1 Mini",
+      "group": "GPT-Image"
+    },
+    {
+      "status": "failed",
+      "error": {
+        "error": {
+          "message": "",
+          "localized_message": "",
+          "type": "shell_api_error",
+          "param": "",
+          "code": "bad_response_status_code"
+        }
+      },
+      "code": 403,
+      "model_id": "flux-pro",
+      "model_name": "Flux Pro",
+      "group": "Flux"
+    },
+    {
+      "status": "success",
+      "url": "https://delivery.eu2.bfl.ai/results/5f/01212395ca0687/95ca06870d4c43b4bc828a35555f829a/sample.jpeg?se=2026-04-20T13%3A43%3A32Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=OEMAbdeFXI0Vja7lmzcqk69d9CPstmrVGC4A7kX0ELk%3D",
+      "time": 8.889543533325195,
+      "model_id": "flux-dev",
+      "model_name": "Flux Dev",
+      "group": "Flux"
+    },
+    {
+      "status": "failed",
+      "error": {
+        "error": {
+          "message": "当前分组 default 下对于模型 flux-schnell 计费模式 [按量计费,按次计费] 无可用渠道 (request id: 2026042021333756407635848308470)",
+          "type": "shell_api_error"
+        }
+      },
+      "code": 503,
+      "model_id": "flux-schnell",
+      "model_name": "Flux Schnell",
+      "group": "Flux"
+    },
+    {
+      "status": "success",
+      "url": "https://delivery.eu2.bfl.ai/results/c2/023892cdc11e23/cdc11e2345604f44b01bf69504c68b6e/sample.png?se=2026-04-20T13%3A43%3A45Z&sp=r&sv=2026-02-06&sr=b&rsct=image/png&sig=aSc/YAMezHVXNxfOm8we4rj3p4Hg/y%2B/GWGlEsY2H%2Bc%3D",
+      "time": 6.195441722869873,
+      "model_id": "flux-kontext-pro",
+      "model_name": "Flux Kontext Pro",
+      "group": "Flux"
+    },
+    {
+      "status": "success",
+      "url": "https://delivery.us4.bfl.ai/results/ee/0367753bb1622a/3bb1622a7650400f997d48b36dbd54d3/sample.png?se=2026-04-20T13%3A43%3A57Z&sp=r&sv=2026-02-06&sr=b&rsct=image/png&sig=/C8H704dN9oiQ0qsif/KGKad5fsQUxECaRmWF5cLhhQ%3D",
+      "time": 10.69070816040039,
+      "model_id": "flux-kontext-max",
+      "model_name": "Flux Kontext Max",
+      "group": "Flux"
+    },
+    {
+      "status": "failed",
+      "error": {
+        "error": {
+          "message": "当前分组 default 下对于模型 seedream-5-0 计费模式 [按量计费,按次计费] 无可用渠道 (request id: 2026042021340152827848364931396)",
+          "type": "shell_api_error"
+        }
+      },
+      "code": 503,
+      "model_id": "seedream-5-0",
+      "model_name": "SeeDream 5.0",
+      "group": "Other"
+    },
+    {
+      "status": "success",
+      "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAA...",
+      "time": 24.711366653442383,
+      "model_id": "sora-image",
+      "model_name": "Sora Image",
+      "group": "Other"
+    },
+    {
+      "status": "failed",
+      "error": {
+        "error": {
+          "message": "当前分组 default 下对于模型 recraft-v3 计费模式 [按量计费,按次计费] 无可用渠道 (request id: 2026042021343134712093092279860)",
+          "type": "shell_api_error"
+        }
+      },
+      "code": 503,
+      "model_id": "recraft-v3",
+      "model_name": "Recraft V3",
+      "group": "Other"
+    },
+    {
+      "status": "failed",
+      "error": {
+        "error": {
+          "message": "当前分组 default 下对于模型 ideogram-v3 计费模式 [按量计费,按次计费] 无可用渠道 (request id: 2026042021343448424080090857809)",
+          "type": "shell_api_error"
+        }
+      },
+      "code": 503,
+      "model_id": "ideogram-v3",
+      "model_name": "Ideogram 3",
+      "group": "Other"
+    },
+    {
+      "status": "failed",
+      "error": {
+        "error": {
+          "message": "当前分组 default 下对于模型 midjourney-v7 计费模式 [按量计费,按次计费] 无可用渠道 (request id: 2026042021343753586446445263435)",
+          "type": "shell_api_error"
+        }
+      },
+      "code": 503,
+      "model_id": "midjourney-v7",
+      "model_name": "Midjourney v7",
+      "group": "Other"
+    },
+    {
+      "status": "timeout",
+      "model_id": "dall-e-3",
+      "model_name": "DALL-E 3",
+      "group": "Other"
+    }
+  ]
+}

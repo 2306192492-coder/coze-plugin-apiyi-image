@@ -122,7 +122,7 @@ def call_image_generate(
     }
     
     # Flux 系列使用 aspect_ratio
-    if model.startswith("black-forest-labs/"):
+    if model in ["flux-pro", "flux-dev", "flux-schnell", "flux-kontext-pro", "flux-kontext-max"] or model.startswith("black-forest-labs/"):
         aspect_ratio = size_to_aspect_ratio(size)
         body = {
             "model": model,
@@ -132,7 +132,7 @@ def call_image_generate(
             "prompt_upsampling": True
         }
     # DALL-E 3 特殊参数
-    elif model == "dall-e-3":
+    elif model in ["dall-e-3", "chatgpt-dall-e-3"]:
         body = {
             "model": model,
             "prompt": prompt,
@@ -141,7 +141,24 @@ def call_image_generate(
             "quality": "hd",
             "style": "vivid"
         }
-    # 标准调用
+    # GPT-Image-1-Mini 和 Sora Image 支持透明 PNG
+    elif model in ["chatgpt-image-1-mini", "sora-image"]:
+        body = {
+            "model": model,
+            "prompt": prompt,
+            "n": min(n, 2),  # 最多 2 张
+            "size": size
+        }
+    # Nano Banana 系列 (Gemini) 支持高质量参数
+    elif model in ["gemini-3-pro-image", "gemini-3.1-flash-image-preview", "gemini-2.5-flash-image-preview"]:
+        body = {
+            "model": model,
+            "prompt": prompt,
+            "n": n,
+            "size": size,
+            "generate_images": True
+        }
+    # 标准调用（其他所有模型）
     else:
         body = {
             "model": model,
