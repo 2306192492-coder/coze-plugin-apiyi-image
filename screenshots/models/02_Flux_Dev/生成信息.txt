@@ -1,0 +1,6 @@
+模型名称：Flux Dev
+模型 ID: flux-dev
+提示词：一只可爱的橘猫坐在窗台上，阳光洒在身上，高质量，细节丰富
+生成时间：2026-04-20 22:03:48
+图片 URL: https://delivery.eu5.bfl.ai/results/5e/8643760f1eb36d/0f1eb36d20ee465dae10545be891efa1/sample.jpeg?se=2026-04-20T14%3A14%3A25Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=fth9CbhgTqRQrMqs4usWJwQGkoUvo0wDi8VHOk/KK%2BA%3D
+本地文件：Flux Dev_生成结果.png

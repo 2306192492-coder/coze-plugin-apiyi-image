@@ -1,0 +1,6 @@
+模型名称：Flux Kontext Pro
+模型 ID: flux-kontext-pro
+提示词：一只可爱的橘猫坐在窗台上，阳光洒在身上，高质量，细节丰富
+生成时间：2026-04-20 22:04:00
+图片 URL: https://delivery.eu2.bfl.ai/results/e1/87717917fc4244/17fc4244a0094f9a9d3487be661b926b/sample.png?se=2026-04-20T14%3A14%3A38Z&sp=r&sv=2026-02-06&sr=b&rsct=image/png&sig=O8HhU06stfxAMGpE4nGLGt1Wim6lfB4%2Bvg29hDuIpK4%3D
+本地文件：Flux Kontext Pro_生成结果.png

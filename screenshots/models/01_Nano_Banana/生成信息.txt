@@ -1,0 +1,6 @@
+模型名称：Nano Banana
+模型 ID: gemini-2.5-flash-image-preview
+提示词：一只可爱的橘猫坐在窗台上，阳光洒在身上，高质量，细节丰富
+生成时间：2026-04-20 22:03:33
+格式：Base64
+本地文件：Nano Banana_生成结果.png
